@@ -1,0 +1,71 @@
+<marquee width="100%" direction="left" height="25px" class="announcement-cls">
+  Save More with The Big Spring | Buy 1 at 20%*, Buy 2 at 40%* & Buy 3+ at 50%* off on select Apparel & Accessories | Up to 50%* off on Kids wear | *T&C Apply
+</marquee>
+<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">Fably</a>
+
+    <div [ngSwitch]="menuType">
+      <ul class="nav" *ngSwitchCase="'default'">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="seller-auth">Admin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="user-auth">Login/Sign-up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cart({{cartItems}})</a>
+        </li>
+      </ul>
+      <ul class="nav" *ngSwitchCase="'user'" >
+        <li class="nav-item">
+          <a class="nav-link" routerLink="seller-auth">Admin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="my-orders" >My Orders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="userLogout()" >Logout</a>
+        </li>    
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a>
+        </li>
+      </ul>
+      <ul class="nav" *ngSwitchCase="'seller'" >
+        <li class="nav-item">
+          <a class="nav-link" routerLink="seller-add-product">Add Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="seller-home">List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="logout()">Logout</a>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link" href="#">{{sellerName | titlecase}}</a>
+        </li>-->
+      </ul>
+    </div> 
+
+    <form class="d-flex" role="search" *ngIf="menuType!=='seller'">
+      <input class="form-control me-2" type="search" #searchInput
+      (keyup)="searchProduct($event)" (blur)="hideSearch()" 
+      placeholder="Search Products" aria-label="Search">
+      <button (click)="submitSearch(searchInput.value)" class="btn btn-outline-success">Search</button>
+    </form>
+    <ul class="nav">
+      <li class="nav-item">
+        <a *ngIf="!!sellerName" class="nav-link" href="#">Hi {{sellerName | titlecase}} !</a>
+      </li>
+      <li class="nav-item">
+        <a *ngIf="!!userName" class="nav-link" href="#">Hi {{userName | titlecase}} !</a>
+      </li> 
+    </ul>   
+  </div>
+</nav>

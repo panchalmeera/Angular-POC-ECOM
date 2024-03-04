@@ -1,0 +1,219 @@
+{
+  "seller": [
+    {
+      "id": "2",
+      "name": "Meera Panchal",
+      "email": "meera@seller.com",
+      "password": "meera@123"
+    },
+    {
+      "id": "3",
+      "name": "Devaroop Bhattacharya",
+      "password": "devaroop@123",
+      "email": "devaroop@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Pratik",
+      "password": "pratik@123",
+      "email": "pratik@seller.com"
+    },
+    {
+      "id": "f1ef",
+      "name": "Ashray",
+      "password": "ashray@123",
+      "email": "ashray@seller.com"
+    }
+  ],
+  "products": [
+    {
+      "name": "Jaipur cotton Casual Pants",
+      "price": "300",
+      "category": "Women",
+      "color": "Red",
+      "description": "Fabindia Cotton hand block printed casual pants",
+      "image": "https://apisap.fabindia.com/medias/10683679-1.jpg?context=bWFzdGVyfGltYWdlc3wyMDM5Nzl8aW1hZ2UvanBlZ3xhRFJpTDJneFpDODVNamd3TXpZMk16UTJNamN3THpFd05qZ3pOamM1WHpFdWFuQm58ZmFkNzg1OWU1NDM2ZjBjNDg3NzcyOGM2MDRjNzlkYTZhZmJkOTAzNzczYmNkM2FjNTIxMjFjNmE2Y2FkYzIwMw",
+      "id": "4"
+    },
+    {
+      "name": "Cotton Dobby Slim Fit Shirt",
+      "price": "2999",
+      "category": "Men",
+      "color": "blue",
+      "description": "It is crafted from soft and breathable cotton fabric and has a Chinese collar, a button-down front, and full sleeves.",
+      "image": "https://apisap.fabindia.com/medias/20028611-1.jpg?context=bWFzdGVyfGltYWdlc3wxMjg0NTF8aW1hZ2UvanBlZ3xhRGN6TDJnd01TODVNRGd3T1RZNU5qSTFOak13THpJd01ESTROakV4WHpFdWFuQm58MjNlYmIzODUxOGI4NzVkOGNjNTU2MTU4NTE4Yzg5ZDQwYjk5YzVhY2VhNDg0ZmMxMDQxNjI5OTEzYjMzMWQyZg",
+      "id": "5"
+    },
+    {
+      "name": "Green Cotton Ikat Shirt",
+      "price": "299",
+      "category": "Boys",
+      "color": "Green",
+      "description": "The Straight design and Waist-Length cut offer a classic yet comfortable fit, perfect for daily wear.",
+      "image": "https://apisap.fabindia.com/medias/20128580-01.jpg?context=bWFzdGVyfGltYWdlc3wxMTAyODN8aW1hZ2UvanBlZ3xhR0k1TDJnMk5pOHlOemcxTWpneE16VTVPRGMxTUM4eU1ERXlPRFU0TUY4d01TNXFjR2N8M2NlZjAwMDI3NTJiMDY3NmJlYWEwOGVkNTMzNjVmNTBjYjE0MmFkOGM2NjJhOTI4ODI2N2RjNDI4ZTdiYzJhNg",
+      "id": "6"
+    },
+    {
+      "name": "Green Cotton Printed Dress",
+      "price": "299",
+      "category": "Girls",
+      "color": "Green",
+      "description": "This enchanting knee-length dress gracefully combines the timeless allure of a round neck and the effortless charm of half sleeves. ",
+      "image": "https://apisap.fabindia.com/medias/20092992-01.jpg?context=bWFzdGVyfGltYWdlc3wxMDY1MTl8aW1hZ2UvanBlZ3xhR0ZoTDJnNE1pODVNalV5TXprNE5EazNPREl5THpJd01Ea3lPVGt5WHpBeExtcHdad3wyMGZhMzlmNzMxMTY3YWY1NjJjMDMzZDk2ZDU2ZDkyMTM5NDhjM2FhZTlmOGU2MWUzODNiNDc1ZTM0MmJjYjFm",
+      "id": "8"
+    },
+    {
+      "name": "Orange Cotton Printed Straight Fit Shirt",
+      "price": "3000",
+      "category": "Men",
+      "color": "Orange",
+      "description": "This hand block printed button-down shirt can be worn for work, weekend outings, or casual hangs.",
+      "image": "https://apisap.fabindia.com/medias/20028480-1.JPG?context=bWFzdGVyfGltYWdlc3w5NzUzMzF8aW1hZ2UvanBlZ3xhRFJsTDJnMFppODVNRFl5T0RnMU56SXdNRGswTHpJd01ESTRORGd3WHpFdVNsQkh8ZWQ5NDFhNWFjNzdkOWQ2ZjAyMzRlMTc0NTdmMTc4YTI5MDY3YjJiNTgyOWFmOTMzZGRiNGM2ZjdhNTI0NGEyMg",
+      "id": "7"
+    },
+    {
+      "id": "3904",
+      "name": "Blue Silk Nehru Jacket",
+      "price": "1699",
+      "category": "Boys",
+      "color": "Blue",
+      "description": "This deep hue sleeveless Nehru jacket lends great solemnity to any outfit. ",
+      "image": "https://apisap.fabindia.com/medias/10737086-03.jpg?context=bWFzdGVyfGltYWdlc3wxMDE2Mzh8aW1hZ2UvanBlZ3xhR1E0TDJnek55ODVNalV5TXpJek56ZzJOemd5THpFd056TTNNRGcyWHpBekxtcHdad3xiYTM2MDU2OTJmNTcyMjcwYjgzZDMzZTlmZjQ0NzM2ZjlhMjEzZWZlYTAxMjM5ZGVjYzM3M2QzYWM1NWYzZTcy"
+    },
+    {
+      "id": "8ec8",
+      "name": "Wine Cotton Silk Blend Banarsi Sari",
+      "price": "16999",
+      "category": "Women",
+      "color": "Wine Red",
+      "description": "Make a statement at any occasion with our Banarsi Sari by Fabindia. Embodying timeless beauty and grace, this stunning piece is a true testament to Indian craftsmanship.",
+      "image": "https://apisap.fabindia.com/medias/20154904-03.jpg?context=bWFzdGVyfGltYWdlc3wxNDU3ODh8aW1hZ2UvanBlZ3xhREJpTDJnd01TOHpNRFF5TmpZNU1qWXhOakl5TWk4eU1ERTFORGt3TkY4d015NXFjR2N8Mjk4MDdhOGEyNzdmMTViZjk5YmM3NjY1NjU4ZTIyNmVjZWUyMWMwMjNmMTNmZDUxMzZlODMzNDg5OTc2NmVhMg"
+    },
+    {
+      "id": "1b57",
+      "name": "Pink Cotton Silk Tie & Dye Dupatta",
+      "price": "1299",
+      "category": "Women",
+      "color": "Pink",
+      "description": "Experience the epitome of elegance with our opulent cotton silk dupatta, featuring stunning Tie & Dye motifs. ",
+      "image": "https://apisap.fabindia.com/medias/20155100-01.jpg?context=bWFzdGVyfGltYWdlc3wxMTQwMTl8aW1hZ2UvanBlZ3xhREpoTDJnek55OHpNRFF5TmpjeE1ESTNPREUzTkM4eU1ERTFOVEV3TUY4d01TNXFjR2N8YjM5MzYwMDljNTkzZTJkOGU5ODlmNjUwY2YxNTVlM2Q5YzZiNDc0NDExZDgwMDcxYTE4ODE2OWU3NGVjNzVmYw"
+    },
+    {
+      "id": "15ab",
+      "name": "Green Cotton Woven Utility Jacket",
+      "price": "3999",
+      "category": "Men",
+      "color": "Brown",
+      "description": "Winter cozy jacket",
+      "image": "https://apisap.fabindia.com/medias/20127887-01.jpg?context=bWFzdGVyfGltYWdlc3wxOTE4NzJ8aW1hZ2UvanBlZ3xhR1JsTDJoa1pDOHlPVEExT1Rjek9UUTFNVFF5TWk4eU1ERXlOemc0TjE4d01TNXFjR2N8NWUxNDI5NzAxM2VkMWQ4ZmJhYmZmMTcyZWZiNWQzNDlkZDczYzYyYTIzNjI4NTUyMzM3NDM0ZmQxNWZlZGU4MQ"
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": "1"
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": "2"
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": "3"
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": "4"
+    },
+    {
+      "id": "127b",
+      "name": "Kiran",
+      "email": "panchalkiran61@gmail.com",
+      "password": "abcd"
+    },
+    {
+      "id": "f7fa",
+      "name": "meera",
+      "email": "meera@gmail.com",
+      "password": "meera@1234"
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": "7"
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": 3,
+      "id": "8"
+    },
+    {
+      "id": "ed60",
+      "name": "Levies Jeans",
+      "price": "5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "quantity": 3,
+      "productId": "5",
+      "userId": "127b"
+    }
+  ],
+  "orders": [
+    {
+      "email": "anil@user.com",
+      "address": "noida sector x",
+      "contact": "9999",
+      "totalPrice": 104750,
+      "userId": 1,
+      "id": "1"
+    },
+    {
+      "email": "anil@gmail.com",
+      "address": "noida sector x",
+      "contact": "8877",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": "3"
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "image": "https://apisap.fabindia.com/medias/wmn-clp-sec1-20feb24-1.jpg?context=bWFzdGVyfGltYWdlc3wyNzg0MDd8aW1hZ2UvanBlZ3xhR013TDJnMVppOHlPVGN4TnpJek1EZzBOVGs0TWk5M2JXNHRZMnh3TFhObFl6RXRNakJtWldJeU5DMHhMbXB3Wnd8YWJiOTFmZmQ5NmEwZWJmMmE0Y2MzOWUzYmFjMDNhMzY3MTU2OGY2ZTBkYWU3NWYxNGMxYzI4NjlhNTAwNjZkOQ"
+    },
+    {
+      "id": "2",
+      "image": "https://apisap.fabindia.com/medias/wmn-clp-sec1-1march24-2.jpg?context=bWFzdGVyfGltYWdlc3wyNDA3NjZ8aW1hZ2UvanBlZ3xhRGd6TDJnd01DOHpNRFkwTmpZMk1qVTVORFU1TUM5M2JXNHRZMnh3TFhObFl6RXRNVzFoY21Ob01qUXRNaTVxY0djfGUyM2ZkNTA5MjIyMWE4MWVkZWQwNTUwZTA3MTExYzFjMWJkOWU5OWI4NDBhYzIwZDlmNjI2MTcwMGQyNjgyM2E"
+    },
+    {
+      "id": "3",
+      "image": "https://apisap.fabindia.com/medias/wmn-clp-sec1-3feb24-3.jpg?context=bWFzdGVyfGltYWdlc3wyNDgwMjV8aW1hZ2UvanBlZ3xhRFl3TDJnelppOHlPRGd4T1RrM09EUTFNekF5TWk5M2JXNHRZMnh3TFhObFl6RXRNMlpsWWpJMExUTXVhbkJufDRiYzFjYzNkOTgyZjFiZTBiYjZjN2MzOTNiNDc2NzBjNTUzN2VhODdjNmFkMTUyZjhjYTgwOGUxYzY3NDNkODQ"
+    }
+  ]
+}
